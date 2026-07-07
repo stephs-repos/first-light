@@ -1,0 +1,5 @@
+camera,west,south,east,north,width_px,height_px,resolution_m,composite_year,collection,source_items
+both,178.1932,-8.730084,179.306752,-7.86108,3099,2428,40.0,2023,dep_s2_geomad,dep_s2_geomad_064_031_2023|dep_s2_geomad_064_032_2023|dep_s2_geomad_065_031_2023|dep_s2_geomad_065_032_2023
+funafuti,178.96,-8.734985,179.27998,-8.335,3562,4473,10.0,2023,dep_s2_geomad,dep_s2_geomad_064_031_2023|dep_s2_geomad_064_032_2023|dep_s2_geomad_065_031_2023|dep_s2_geomad_065_032_2023
+funafuti-sw,179.0614,-8.657442,179.096614,-8.6266,392,345,10.0,2023,dep_s2_geomad,dep_s2_geomad_064_031_2023|dep_s2_geomad_064_032_2023|dep_s2_geomad_065_031_2023|dep_s2_geomad_065_032_2023
+nukufetau-spit,178.3824,-8.03259,178.417614,-7.9974,392,393,10.0,2023,dep_s2_geomad,dep_s2_geomad_064_031_2023|dep_s2_geomad_064_032_2023|dep_s2_geomad_065_031_2023|dep_s2_geomad_065_032_2023

@@ -1,0 +1,2 @@
+camera,west,south,east,north,sources,cloud_alpha
+earthview,100.0,-66.0,230.0,34.0,NASA Blue Marble NG topo+bathy 200407 21600px; NASA cloud_combined_2048,0.5

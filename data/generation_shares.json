@@ -1,0 +1,27 @@
+{
+ "finding": "F-076",
+ "rows": [
+  {
+   "geo": "TK",
+   "label": "Tokelau",
+   "pct": 94.44
+  },
+  {
+   "geo": "CK",
+   "label": "Cook Islands",
+   "pct": 21.56
+  },
+  {
+   "geo": "TV",
+   "label": "Tuvalu",
+   "pct": 17.95
+  }
+ ],
+ "tk_before": {
+  "finding": "F-075",
+  "pct": 0.0,
+  "year": 2011
+ },
+ "unit": "renewable share of electricity generated (%)",
+ "year": 2023
+}

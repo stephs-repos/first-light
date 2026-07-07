@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where the Day Begins</title>
+    <script type="module" crossorigin src="/where-the-day-begins/assets/index-Dn9GQC2N.js"></script>
+    <link rel="stylesheet" crossorigin href="/where-the-day-begins/assets/index-CsK2i1Lr.css">
+  </head>
+  <body>
+    <!-- Fixed map layer sits behind the scrolling narrative. -->
+    <div id="map-layer">
+      <svg id="map"></svg>
+      <div id="hud">
+        <div id="year-label" aria-live="polite"></div>
+        <div id="year-note" aria-live="polite"></div>
+        <!-- Collapsible legend chip: shown only on narrow viewports (Fix E). -->
+        <button id="legend-toggle" class="legend-toggle" type="button" aria-expanded="false" aria-controls="legend">
+          Legend
+        </button>
+        <div id="legend"></div>
+      </div>
+      <!-- Basemap credit (Fix A condition 4): text from copy.annotations, set by
+           map.js; visible only while the satellite backdrop is meaningfully up. -->
+      <div id="basemap-credit" aria-hidden="true"></div>
+    </div>
+    <!-- Hero + narrative column scroll over the fixed map. Text is injected
+         from copy.json; the scroll cue is a UI affordance, not narrative. -->
+    <header id="hero">
+      <div class="hero-inner">
+        <h1 id="hero-title"></h1>
+        <p id="hero-subtitle"></p>
+      </div>
+      <div class="hero-cue" aria-hidden="true"><span></span></div>
+      <div class="hero-cue-label" aria-hidden="true">scroll</div>
+    </header>
+    <main id="scroll"></main>
+    <!-- Landscape-phone notice (UI affordance, not narrative). Every layout in the
+         piece is vertical; on short landscape touchscreens the wall rows collapse and
+         the copy cards clip their co-text, so we ask for portrait instead of shipping
+         a broken frame. Shown via CSS media query only (coarse pointer + short
+         landscape); desktop windows are unaffected. -->
+    <div id="rotate-note" role="status">
+      <p>This story reads top to bottom.<br />Please turn your phone upright.</p>
+    </div>
+  </body>
+</html>

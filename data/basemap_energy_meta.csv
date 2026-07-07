@@ -1,0 +1,4 @@
+camera,west,south,east,north,width_px,height_px,resolution_m,composite_year,collection,source_items
+nukunonu,-171.96,-9.270044,-171.71997,-9.09,2672,2017,10.0,2023,dep_s2_geomad,dep_s2_geomad_075_030_2023|dep_s2_geomad_075_031_2023
+rarotonga,-159.89,-21.31999,-159.64997,-21.14,2672,2137,10.0,2023,dep_s2_geomad,dep_s2_geomad_089_016_2023
+tokelau,-172.7275,-9.60771,-171.022677,-8.3425,3163,2361,60.0,2023,dep_s2_geomad,dep_s2_geomad_074_030_2023|dep_s2_geomad_074_031_2023|dep_s2_geomad_074_032_2023|dep_s2_geomad_075_030_2023|dep_s2_geomad_075_031_2023|dep_s2_geomad_075_032_2023|dep_s2_geomad_076_030_2023|dep_s2_geomad_076_031_2023

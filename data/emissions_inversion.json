@@ -1,0 +1,13 @@
+{
+ "tuvalu": {
+  "finding": "F-072",
+  "tonnes": 0.4,
+  "year": 2024
+ },
+ "unit": "tonnes of greenhouse gas per person per year (CO2eq)",
+ "world": {
+  "finding": "F-073",
+  "tonnes": 6.669,
+  "year": 2024
+ }
+}

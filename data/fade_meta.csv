@@ -1,0 +1,11 @@
+camera,year,west,south,east,north,width_px,height_px,resolution_m,collection,source_items
+funafuti-sw,2005,179.0614,-8.657442,179.096704,-8.6266,131,115,30.0,dep_ls_geomad,dep_ls_geomad_064_031_2005
+funafuti-sw,2011,179.0614,-8.657442,179.096704,-8.6266,131,115,30.0,dep_ls_geomad,dep_ls_geomad_064_031_2011
+funafuti-sw,2015,179.0614,-8.657442,179.096704,-8.6266,131,115,30.0,dep_ls_geomad,dep_ls_geomad_064_031_2015
+funafuti-sw,2019,179.0614,-8.657442,179.096704,-8.6266,131,115,30.0,dep_ls_geomad,dep_ls_geomad_064_031_2019
+funafuti-sw,2023,179.0614,-8.657442,179.096704,-8.6266,131,115,30.0,dep_ls_geomad,dep_ls_geomad_064_031_2023
+nukufetau-spit,2005,178.3824,-8.03259,178.417704,-7.9974,131,131,30.0,dep_ls_geomad,dep_ls_geomad_064_032_2005
+nukufetau-spit,2012,178.3824,-8.03259,178.417704,-7.9974,131,131,30.0,dep_ls_geomad,dep_ls_geomad_064_032_2012
+nukufetau-spit,2016,178.3824,-8.03259,178.417704,-7.9974,131,131,30.0,dep_ls_geomad,dep_ls_geomad_064_032_2016
+nukufetau-spit,2019,178.3824,-8.03259,178.417704,-7.9974,131,131,30.0,dep_ls_geomad,dep_ls_geomad_064_032_2019
+nukufetau-spit,2023,178.3824,-8.03259,178.417704,-7.9974,131,131,30.0,dep_ls_geomad,dep_ls_geomad_064_032_2023
