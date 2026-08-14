@@ -1,4 +1,4 @@
-# Where the Day Begins
+# First Light
 
 Twenty-five years of Pacific islands answering climate change with sunlight.
 
