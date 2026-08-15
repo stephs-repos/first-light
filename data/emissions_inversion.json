@@ -4,6 +4,11 @@
   "tonnes": 0.4,
   "year": 2024
  },
+ "tuvalu_owid": {
+  "finding": "F-086",
+  "tonnes": 2.053,
+  "year": 2024
+ },
  "unit": "tonnes of greenhouse gas per person per year (CO2eq)",
  "world": {
   "finding": "F-073",
