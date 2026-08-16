@@ -5,13 +5,29 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Light</title>
-    <script type="module" crossorigin src="/first-light/assets/index-CuEfxHDh.js"></script>
-    <link rel="stylesheet" crossorigin href="/first-light/assets/index-DsRDX6LE.css">
+    <!-- Link preview. The entry is aimed at the Global Mention prize, so it is meant to be
+         shared, and a shared link previewed as a bare URL with no title or blurb. The
+         description is the hero subtitle verbatim (copy.json `subtitle`) rather than new
+         prose, so there is one wording to keep true. No og:image yet — that needs a chosen,
+         hosted frame. -->
+    <meta name="description" content="Pacific islands answering climate change with sunlight." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="First Light" />
+    <meta property="og:title" content="First Light" />
+    <meta property="og:description" content="Pacific islands answering climate change with sunlight." />
+    <meta property="og:url" content="https://stephs-repos.github.io/first-light/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="First Light" />
+    <meta name="twitter:description" content="Pacific islands answering climate change with sunlight." />
+    <script type="module" crossorigin src="/first-light/assets/index-COHdsksp.js"></script>
+    <link rel="stylesheet" crossorigin href="/first-light/assets/index-C4HnpR2m.css">
   </head>
   <body>
     <!-- Fixed map layer sits behind the scrolling narrative. -->
     <div id="map-layer">
-      <svg id="map"></svg>
+      <!-- Named, because it is not decorative: the wall beats put 19 focusable
+           country panels inside it, so a keyboard reader tabs into this element. -->
+      <svg id="map" role="group" aria-label="Map and charts for the story, which changes as you scroll"></svg>
       <div id="hud">
         <div id="year-label" aria-live="polite"></div>
         <div id="year-note" aria-live="polite"></div>
